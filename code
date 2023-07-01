@@ -1,0 +1,13 @@
+
+# stnd output redirection 
+command > output.txt    or 
+command 1> output.txt
+
+ #  stnd error  redirection 
+  command 2> error.txt
+ #  stnd error and output   redirection 
+  command > output.txt 2>&1
+
+  # both of them in seperate file 
+  command 1> output.txt 2> error.txt
+  
